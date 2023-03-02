@@ -1,0 +1,14 @@
+configName: default
+folderName: cap_single_sensor_board
+format_version: v1.0
+frameworkPath: ../Harmony3
+processor: PIC32MK0512MCJ064
+projectName: cap_single_sensor_board
+settings:
+  PackageFilter: mbed_os_rtos;harmony-services;usb;csp;core;motor_control;usb_apps_host;usb_apps_multi_controller;dev_packs;usb_apps_device;x2c;core_apps_pic32mk;csp_apps_pic32mk;usb_apps_dual_role;quick_docs;mc_apps_pic32mk;bsp
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/PIC32MK-MC_DFP/1.9.143/atdf/PIC32MK0512MCJ064.atdf
